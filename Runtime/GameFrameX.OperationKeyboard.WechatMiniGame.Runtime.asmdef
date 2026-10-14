@@ -1,0 +1,24 @@
+{
+    "name": "GameFrameX.OperationKeyboard.WechatMiniGame.Runtime",
+    "rootNamespace": "GameFrameX.OperationKeyboard.WechatMiniGame.Runtime",
+    "references": [
+        "GameFrameX.Runtime",
+        "GameFrameX.OperationKeyboard.Runtime",
+        "Wx"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.qq.weixin.minigame",
+            "expression": "",
+            "define": "ENABLE_WECHAT_MINI_GAME_OPERATIONKEYBOARD"
+        }
+    ],
+    "noEngineReferences": false
+}

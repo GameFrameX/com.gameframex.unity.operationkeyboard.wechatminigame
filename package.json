@@ -1,0 +1,39 @@
+{
+  "name": "com.gameframex.unity.operationkeyboard.wechatminigame",
+  "displayName": "Game Frame X Operation Keyboard (WeChat Mini Game)",
+  "version": "1.0.0",
+  "unity": "2019.4",
+  "description": "WeChat Mini Game keyboard adapter for GameFrameX OperationKeyboard. Self-registers into OperationKeyboardRegistry at startup via WechatMiniGameOperationKeyboardBootstrap (code is stripped and registration does not happen when UNITY_WEBGL / ENABLE_WECHAT_MINI_GAME / ENABLE_WECHAT_MINI_GAME_OPERATIONKEYBOARD macros are not enabled; installation implies registration).\n\nGameFrameX OperationKeyboard 的微信小游戏键盘适配渠道包。通过 WechatMiniGameOperationKeyboardBootstrap 在启动阶段自注册进主包 OperationKeyboardRegistry（宏 UNITY_WEBGL / ENABLE_WECHAT_MINI_GAME / ENABLE_WECHAT_MINI_GAME_OPERATIONKEYBOARD 未启用时代码被裁剪，注册不会发生；引用即注册）。",
+  "author": {
+    "name": "Blank",
+    "email": "alianblank@outlook.com",
+    "url": "https://gameframex.doc.alianblank.com"
+  },
+  "dependencies": {
+    "com.gameframex.unity": "2.5.4",
+    "com.gameframex.unity.operationkeyboard": "1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gameframex/com.gameframex.unity.operationkeyboard.wechatminigame.git",
+    "name": "com.gameframex.unity.operationkeyboard.wechatminigame"
+  },
+  "documentationUrl": "https://gameframex.doc.alianblank.com",
+  "changelogUrl": "https://github.com/gameframex/com.gameframex.unity.operationkeyboard.wechatminigame/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/gameframex/com.gameframex.unity.operationkeyboard.wechatminigame/blob/main/LICENSE.md",
+  "devDependencies": {
+    "semantic-release": "^24.2.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.cnb.cool/GameFrameX/npm/-/packages/"
+  },
+  "category": "GameFrameX",
+  "keywords": [
+    "GameFrameX",
+    "OperationKeyboard",
+    "WeChatMiniGame"
+  ]
+}
