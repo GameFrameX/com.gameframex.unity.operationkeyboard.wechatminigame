@@ -1,7 +1,7 @@
 {
   "name": "com.gameframex.unity.operationkeyboard.wechatminigame",
   "displayName": "Game Frame X Operation Keyboard (WeChat Mini Game)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2019.4",
   "description": "WeChat Mini Game keyboard adapter for GameFrameX OperationKeyboard. Self-registers into OperationKeyboardRegistry at startup via WechatMiniGameOperationKeyboardBootstrap (code is stripped and registration does not happen when UNITY_WEBGL / ENABLE_WECHAT_MINI_GAME / ENABLE_WECHAT_MINI_GAME_OPERATIONKEYBOARD macros are not enabled; installation implies registration).\n\nGameFrameX OperationKeyboard 的微信小游戏键盘适配渠道包。通过 WechatMiniGameOperationKeyboardBootstrap 在启动阶段自注册进主包 OperationKeyboardRegistry（宏 UNITY_WEBGL / ENABLE_WECHAT_MINI_GAME / ENABLE_WECHAT_MINI_GAME_OPERATIONKEYBOARD 未启用时代码被裁剪，注册不会发生；引用即注册）。",
   "author": {
