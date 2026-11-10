@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/gameframex/com.gameframex.unity.operationkeyboard.wechatminigame/compare/1.0.1...1.0.2) (2026-11-10)
+
+
+### Bug Fixes
+
+* **operationkeyboard.wechatminigame:** 添加完整 link.xml 防代码裁剪保护 ([2308879](https://github.com/gameframex/com.gameframex.unity.operationkeyboard.wechatminigame/commit/2308879066da48f256d71d73ba0c5d7084136d28))
+
 ## [1.0.1](https://github.com/gameframex/com.gameframex.unity.operationkeyboard.wechatminigame/compare/1.0.0...1.0.1) (2026-10-15)
 
 
